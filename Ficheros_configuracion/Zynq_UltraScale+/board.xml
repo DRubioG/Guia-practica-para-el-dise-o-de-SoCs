@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?> 
+<board schema_version="2.0" vendor="TFG_UAH" name="Zynq UltraScale+" display_name="Zynq UltraScale+" url="github.com/DRubioG" preset_file="preset.xml">
+  <images>
+    <image name="imagen.jpg" display_name="Zynq" sub_type="board">
+      <description>Zynq UltraScale+ Board File Image</description>
+    </image>
+  </images>
+  <compatible_board_revisions>
+    <revision id="0">d</revision>
+  </compatible_board_revisions>
+  <file_version>1.0</file_version>
+  <description>Version</description>
+  
+  <components>
+
+    <component name="part0" display_name="TFG Zynq UltraScale+" type="fpga" part_name="xczu2cg-sbva484-1-e" pin_map_file="part0_pins.xml" vendor="TFG_UAH" spec_url="TFG_UAH">
+      <description>FPGA part on the board</description>  
+      
+      <interface mode="master" name="leds_8bits" type="xilinx.com:interface:gpio_rtl:1.0" of_component="leds_8bits" preset_proc="leds_8bits_preset">
+          <preferred_ips>
+            <preferred_ip vendor="xilinx.com" library="ip" name="axi_gpio" order="0"/>
+          </preferred_ips>
+          <port_maps>
+            <port_map logical_port="TRI_O" physical_port="leds_8bits_tri_o" dir="out" left="7" right="0"> 
+              <pin_maps>
+                <pin_map port_index="0" component_pin="leds_8bits_tri_o_0"/> 
+                <pin_map port_index="1" component_pin="leds_8bits_tri_o_1"/> 
+                <pin_map port_index="2" component_pin="leds_8bits_tri_o_2"/> 
+                <pin_map port_index="3" component_pin="leds_8bits_tri_o_3"/> 
+                <pin_map port_index="4" component_pin="leds_8bits_tri_o_4"/> 
+                <pin_map port_index="5" component_pin="leds_8bits_tri_o_5"/> 
+                <pin_map port_index="6" component_pin="leds_8bits_tri_o_6"/> 
+                <pin_map port_index="7" component_pin="leds_8bits_tri_o_7"/>
+              </pin_maps>
+            </port_map>
+          </port_maps>
+        </interface>
+
+        <interface mode="master" name="sws_5bits" type="xilinx.com:interface:gpio_rtl:1.0" of_component="sws_5bits" preset_proc="sws_5bits_preset">
+          <preferred_ips>
+            <preferred_ip vendor="xilinx.com" library="ip" name="axi_gpio" order="0"/>
+          </preferred_ips>
+          <port_maps>
+            <port_map logical_port="TRI_I" physical_port="sws_5bits_tri_i" dir="in" left="4" right="0"> 
+              <pin_maps>
+                <pin_map port_index="0" component_pin="sws_5bits_tri_i_0"/> 
+                <pin_map port_index="1" component_pin="sws_5bits_tri_i_1"/> 
+                <pin_map port_index="2" component_pin="sws_5bits_tri_i_2"/> 
+                <pin_map port_index="3" component_pin="sws_5bits_tri_i_3"/> 
+                <pin_map port_index="4" component_pin="sws_5bits_tri_i_4"/> 
+              </pin_maps>
+            </port_map>
+          </port_maps>
+        </interface>
+
+      <interfaces>
+        <interface mode="master" name="btns_3bits" type="xilinx.com:interface:gpio_rtl:1.0" of_component="btns_3bits" preset_proc="btns_3bits_preset">
+          <preferred_ips>
+            <preferred_ip vendor="xilinx.com" library="ip" name="axi_gpio" order="0"/>
+          </preferred_ips>
+          <port_maps>
+            <port_map logical_port="TRI_I" physical_port="btns_3bits_tri_i" dir="out" left="2" right="0"> 
+              <pin_maps>
+                <pin_map port_index="0" component_pin="btns_3bits_tri_i_0"/> 
+                <pin_map port_index="1" component_pin="btns_3bits_tri_i_1"/> 
+                <pin_map port_index="2" component_pin="btns_3bits_tri_i_2"/> 
+              </pin_maps>
+            </port_map>
+          </port_maps>
+        </interface>
+    
+      </interfaces>
+
+
+
+
+    </component>
+
+    <component name="sys_clock" display_name="System clock" type="chip" sub_type="system_clock" major_group="Clock Sources">
+      <description>System Clock, 50 MHz</description>
+    </component>
+
+    <component name="btns_3bits" display_name="Push buttons" type="chip" sub_type="push_button" major_group="General Purpose Input or Output">
+      <description>Push Buttons, , Active High</description>
+    </component>
+
+    <component name="leds_8bits" display_name="leds" type="chip" sub_type="led" major_group="General Purpose Input or Output">
+      <description>Leds, , Active High</description>
+    </component>
+
+    <component name="sws_5bits" display_name="Push buttons" type="chip" sub_type="switch" major_group="General Purpose Input or Output">
+      <description>Switches, , Active High</description>
+    </component>
+
+  </components>
+
+  
+
+  <jtag_chains>
+    <jtag_chain name="chain1">
+      <position name="0" component="part0"/>
+    </jtag_chain>
+  </jtag_chains>
+
+  <connections>
+
+    <connection name="part0_sys_clock" component1="part0" component2="sys_clock">
+      <connection_map name="part0_sys_clock_1" c1_st_index="16" c1_end_index="16" c2_st_index="0" c2_end_index="0"/>
+    </connection>
+
+    <connection name="part0_btns_3bits" component1="part0" component2="btns_3bits">
+      <connection_map name="part0_btns_3bits_1" c1_st_index="0" c1_end_index="2" c2_st_index="0" c2_end_index="2"/>
+    </connection>
+
+    <connection name="part0_leds_8bits" component1="part0" component2="leds_8bits">
+      <connection_map name="part0_leds_8bits_1" c1_st_index="3" c1_end_index="10" c2_st_index="0" c2_end_index="7"/>
+    </connection>
+    
+    <connection name="part0_sws_5bits" component1="part0" component2="sws_5bits">
+      <connection_map name="part0_sws_5bits_1" c1_st_index="11" c1_end_index="15" c2_st_index="0" c2_end_index="4"/>
+    </connection>
+	
+
+	
+  </connections>
+</board>
