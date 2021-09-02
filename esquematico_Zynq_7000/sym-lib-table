@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name Zynq_7000)(type Legacy)(uri ${KIPRJMOD}/Zynq_7000.lib)(options "")(descr ""))
+)
