@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?> 
+<part_info part_name="xc7z010clg400-1">
+<pins>
+	<pin index="0" name ="btns_3bits_tri_i_0" iostandard="LVCMOS33" loc="K16"/>
+	<pin index="1" name ="btns_3bits_tri_i_1" iostandard="LVCMOS33" loc="J16"/>
+	<pin index="2" name ="btns_3bits_tri_i_2" iostandard="LVCMOS33" loc="J15"/>
+
+	<pin index="3" name ="leds_8bits_tri_o_0" iostandard="LVCMOS33" loc="H20"/>
+	<pin index="4" name ="leds_8bits_tri_o_1" iostandard="LVCMOS33" loc="G19"/>
+	<pin index="5" name ="leds_8bits_tri_o_2" iostandard="LVCMOS33" loc="G20"/>
+	<pin index="6" name ="leds_8bits_tri_o_3" iostandard="LVCMOS33" loc="H15"/>
+	<pin index="7" name ="leds_8bits_tri_o_4" iostandard="LVCMOS33" loc="G15"/>
+	<pin index="8" name ="leds_8bits_tri_o_5" iostandard="LVCMOS33" loc="K14"/>
+	<pin index="9" name ="leds_8bits_tri_o_6" iostandard="LVCMOS33" loc="J14"/>
+	<pin index="10" name ="leds_8bits_tri_o_7" iostandard="LVCMOS33" loc="N15"/>
+
+	<pin index="11" name ="sws_5bits_tri_i_0" iostandard="LVCMOS33" loc="N16"/>
+	<pin index="12" name ="sws_5bits_tri_i_1" iostandard="LVCMOS33" loc="L14"/>
+	<pin index="13" name ="sws_5bits_tri_i_2" iostandard="LVCMOS33" loc="L15"/>
+	<pin index="14" name ="sws_5bits_tri_i_3" iostandard="LVCMOS33" loc="M14"/>
+	<pin index="15" name ="sws_5bits_tri_i_4" iostandard="LVCMOS33" loc="M15"/>
+    
+  	</pins>
+  
+</pins>
+</part_info>
