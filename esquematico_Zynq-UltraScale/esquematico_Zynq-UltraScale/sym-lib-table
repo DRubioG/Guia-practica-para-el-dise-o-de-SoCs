@@ -1,4 +1,5 @@
 (sym_lib_table
   (lib (name Zynq_UltraScale)(type Legacy)(uri ${KIPRJMOD}/Zynq_UltraScale.lib)(options "")(descr ""))
   (lib (name Zynq_7000)(type Legacy)(uri ${KIPRJMOD}/Zynq_7000.lib)(options "")(descr ""))
+  (lib (name bss138)(type Legacy)(uri C:/Users/XD/Desktop/bss138.lib)(options "")(descr ""))
 )

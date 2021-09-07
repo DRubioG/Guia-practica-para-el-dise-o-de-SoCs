@@ -144,17 +144,6 @@ F 3 "~" H 9000 2200 50  0001 C CNN
 	1    9000 2200
 	1    0    0    -1  
 $EndComp
-$Comp
-L Transistor_BJT:PN2222A Q?
-U 1 1 612AF575
-P 8900 1750
-F 0 "Q?" H 9090 1796 50  0000 L CNN
-F 1 "PN2222A" H 9090 1705 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-92_Inline" H 9100 1675 50  0001 L CIN
-F 3 "https://www.onsemi.com/pub/Collateral/PN2222-D.PDF" H 8900 1750 50  0001 L CNN
-	1    8900 1750
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	9000 2450 9000 2350
 Wire Wire Line
@@ -209,17 +198,6 @@ F 1 "360" H 10018 2155 50  0000 L CNN
 F 2 "" V 9990 2190 50  0001 C CNN
 F 3 "~" H 9950 2200 50  0001 C CNN
 	1    9950 2200
-	1    0    0    -1  
-$EndComp
-$Comp
-L Transistor_BJT:PN2222A Q?
-U 1 1 612B95BB
-P 9850 1750
-F 0 "Q?" H 10040 1796 50  0000 L CNN
-F 1 "PN2222A" H 10040 1705 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-92_Inline" H 10050 1675 50  0001 L CIN
-F 3 "https://www.onsemi.com/pub/Collateral/PN2222-D.PDF" H 9850 1750 50  0001 L CNN
-	1    9850 1750
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -278,17 +256,6 @@ F 3 "~" H 10900 2200 50  0001 C CNN
 	1    10900 2200
 	1    0    0    -1  
 $EndComp
-$Comp
-L Transistor_BJT:PN2222A Q?
-U 1 1 612BDBA0
-P 10800 1750
-F 0 "Q?" H 10990 1796 50  0000 L CNN
-F 1 "PN2222A" H 10990 1705 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-92_Inline" H 11000 1675 50  0001 L CIN
-F 3 "https://www.onsemi.com/pub/Collateral/PN2222-D.PDF" H 10800 1750 50  0001 L CNN
-	1    10800 1750
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	10900 2450 10900 2350
 Wire Wire Line
@@ -343,17 +310,6 @@ F 1 "360" H 11918 2155 50  0000 L CNN
 F 2 "" V 11890 2190 50  0001 C CNN
 F 3 "~" H 11850 2200 50  0001 C CNN
 	1    11850 2200
-	1    0    0    -1  
-$EndComp
-$Comp
-L Transistor_BJT:PN2222A Q?
-U 1 1 612BDBC4
-P 11750 1750
-F 0 "Q?" H 11940 1796 50  0000 L CNN
-F 1 "PN2222A" H 11940 1705 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-92_Inline" H 11950 1675 50  0001 L CIN
-F 3 "https://www.onsemi.com/pub/Collateral/PN2222-D.PDF" H 11750 1750 50  0001 L CNN
-	1    11750 1750
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -412,17 +368,6 @@ F 3 "~" H 12800 2200 50  0001 C CNN
 	1    12800 2200
 	1    0    0    -1  
 $EndComp
-$Comp
-L Transistor_BJT:PN2222A Q?
-U 1 1 612C6606
-P 12700 1750
-F 0 "Q?" H 12890 1796 50  0000 L CNN
-F 1 "PN2222A" H 12890 1705 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-92_Inline" H 12900 1675 50  0001 L CIN
-F 3 "https://www.onsemi.com/pub/Collateral/PN2222-D.PDF" H 12700 1750 50  0001 L CNN
-	1    12700 1750
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	12800 2450 12800 2350
 Wire Wire Line
@@ -477,17 +422,6 @@ F 1 "360" H 13818 2155 50  0000 L CNN
 F 2 "" V 13790 2190 50  0001 C CNN
 F 3 "~" H 13750 2200 50  0001 C CNN
 	1    13750 2200
-	1    0    0    -1  
-$EndComp
-$Comp
-L Transistor_BJT:PN2222A Q?
-U 1 1 612C662A
-P 13650 1750
-F 0 "Q?" H 13840 1796 50  0000 L CNN
-F 1 "PN2222A" H 13840 1705 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-92_Inline" H 13850 1675 50  0001 L CIN
-F 3 "https://www.onsemi.com/pub/Collateral/PN2222-D.PDF" H 13650 1750 50  0001 L CNN
-	1    13650 1750
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -546,17 +480,6 @@ F 3 "~" H 14700 2200 50  0001 C CNN
 	1    14700 2200
 	1    0    0    -1  
 $EndComp
-$Comp
-L Transistor_BJT:PN2222A Q?
-U 1 1 612C664E
-P 14600 1750
-F 0 "Q?" H 14790 1796 50  0000 L CNN
-F 1 "PN2222A" H 14790 1705 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-92_Inline" H 14800 1675 50  0001 L CIN
-F 3 "https://www.onsemi.com/pub/Collateral/PN2222-D.PDF" H 14600 1750 50  0001 L CNN
-	1    14600 1750
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	14700 2450 14700 2350
 Wire Wire Line
@@ -611,17 +534,6 @@ F 1 "360" H 15718 2155 50  0000 L CNN
 F 2 "" V 15690 2190 50  0001 C CNN
 F 3 "~" H 15650 2200 50  0001 C CNN
 	1    15650 2200
-	1    0    0    -1  
-$EndComp
-$Comp
-L Transistor_BJT:PN2222A Q?
-U 1 1 612C6672
-P 15550 1750
-F 0 "Q?" H 15740 1796 50  0000 L CNN
-F 1 "PN2222A" H 15740 1705 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-92_Inline" H 15750 1675 50  0001 L CIN
-F 3 "https://www.onsemi.com/pub/Collateral/PN2222-D.PDF" H 15550 1750 50  0001 L CNN
-	1    15550 1750
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -1203,4 +1115,92 @@ Text Label 7000 8500 2    50   ~ 0
 BT_2
 Wire Wire Line
 	6500 8500 7000 8500
+$Comp
+L Zynq_7000:NDS331N Q?
+U 1 1 61374393
+P 8900 1750
+F 0 "Q?" H 9105 1796 50  0000 L CNN
+F 1 "NDS331N" H 9105 1705 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 9100 1675 50  0001 L CIN
+F 3 "https://www.onsemi.com/pdf/datasheet/nds331n-d.pdf" H 8900 1750 50  0001 L CNN
+	1    8900 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Zynq_7000:NDS331N Q?
+U 1 1 6137640D
+P 9850 1750
+F 0 "Q?" H 10055 1796 50  0000 L CNN
+F 1 "NDS331N" H 10055 1705 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 10050 1675 50  0001 L CIN
+F 3 "https://www.onsemi.com/pdf/datasheet/nds331n-d.pdf" H 9850 1750 50  0001 L CNN
+	1    9850 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Zynq_7000:NDS331N Q?
+U 1 1 61376B48
+P 10800 1750
+F 0 "Q?" H 11005 1796 50  0000 L CNN
+F 1 "NDS331N" H 11005 1705 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 11000 1675 50  0001 L CIN
+F 3 "https://www.onsemi.com/pdf/datasheet/nds331n-d.pdf" H 10800 1750 50  0001 L CNN
+	1    10800 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Zynq_7000:NDS331N Q?
+U 1 1 61377786
+P 11750 1750
+F 0 "Q?" H 11955 1796 50  0000 L CNN
+F 1 "NDS331N" H 11955 1705 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 11950 1675 50  0001 L CIN
+F 3 "https://www.onsemi.com/pdf/datasheet/nds331n-d.pdf" H 11750 1750 50  0001 L CNN
+	1    11750 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Zynq_7000:NDS331N Q?
+U 1 1 61377AC1
+P 12700 1750
+F 0 "Q?" H 12905 1796 50  0000 L CNN
+F 1 "NDS331N" H 12905 1705 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 12900 1675 50  0001 L CIN
+F 3 "https://www.onsemi.com/pdf/datasheet/nds331n-d.pdf" H 12700 1750 50  0001 L CNN
+	1    12700 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Zynq_7000:NDS331N Q?
+U 1 1 61378375
+P 13650 1750
+F 0 "Q?" H 13855 1796 50  0000 L CNN
+F 1 "NDS331N" H 13855 1705 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 13850 1675 50  0001 L CIN
+F 3 "https://www.onsemi.com/pdf/datasheet/nds331n-d.pdf" H 13650 1750 50  0001 L CNN
+	1    13650 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Zynq_7000:NDS331N Q?
+U 1 1 6137864A
+P 14600 1750
+F 0 "Q?" H 14805 1796 50  0000 L CNN
+F 1 "NDS331N" H 14805 1705 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 14800 1675 50  0001 L CIN
+F 3 "https://www.onsemi.com/pdf/datasheet/nds331n-d.pdf" H 14600 1750 50  0001 L CNN
+	1    14600 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Zynq_7000:NDS331N Q?
+U 1 1 61378A6F
+P 15550 1750
+F 0 "Q?" H 15755 1796 50  0000 L CNN
+F 1 "NDS331N" H 15755 1705 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 15750 1675 50  0001 L CIN
+F 3 "https://www.onsemi.com/pdf/datasheet/nds331n-d.pdf" H 15550 1750 50  0001 L CNN
+	1    15550 1750
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
