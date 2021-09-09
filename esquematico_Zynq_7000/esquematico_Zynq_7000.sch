@@ -37,8 +37,10 @@ U 61276E2A
 F0 "referencias y MIO" 50
 F1 "referencias_MIO.sch" 50
 $EndSheet
+Text Notes 1050 6450 0    118  ~ 0
+https://github.com/DRubioG/Guia-practica-para-el-dise-o-de-SoCs/tree/main/esquematico_Zynq_7000
 Text Notes 1300 1150 0    197  ~ 39
 TFG:GUÍA PRÁCTICA PARA EL DISEÑO DE SoCs
-Text Notes 1550 2750 0    118  ~ 0
-COMPONENTES:\n- XC7Z010-CLG400 (SoC)\n- TPS563201 x4\n- MT41K256M16 (MEMORIA RAM) x2\n- FT2232H (JTAG)\n- SD CONNECTOR\n- S25FL128S\n- ASE - 33.333MHz\n
+Text Notes 1400 3000 0    118  ~ 0
+COMPONENTES:\n- XC7Z010-CLG400 (SoC)\n- TPS563201 x4\n- MT41K256M16 (MEMORIA RAM) x2\n- FT2232H (JTAG)\n- SD CONNECTOR\n- S25FL128S\n- ASE - 33.333MHz\n- 93C46\n
 $EndSCHEMATC

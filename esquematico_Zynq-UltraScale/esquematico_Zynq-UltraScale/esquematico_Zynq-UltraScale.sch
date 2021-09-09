@@ -43,4 +43,10 @@ U 60F5C424
 F0 "MIO & REFERENCIA" 50
 F1 "MIO_REFERENCIA.sch" 50
 $EndSheet
+Text Notes 1200 1550 0    276  ~ 55
+TFG: GUÍA PRÁCTICA PARA EL DISEÑO DE SoCs
+Text Notes 1900 9600 0    118  ~ 24
+https://github.com/DRubioG/Guia-practica-para-el-dise-o-de-SoCs/tree/main/esquematico_Zynq-UltraScale/esquematico_Zynq-UltraScale
+Text Notes 2350 4950 0    157  ~ 31
+COMPONENTES:\n- XC7ZU2CG\n- MT40A512M16\n- TPS563201\n- USB3320\n- SiT8103AC-23-18E-33.33333\n- MAX16025\n- MT25QU512ABB\n- IP4856CX25\n\n
 $EndSCHEMATC
