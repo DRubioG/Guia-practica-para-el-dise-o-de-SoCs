@@ -2,6 +2,10 @@
 
 Este es mi proyecto de final de carrera
 
+## [Documentos](/Documentos/)
+
+En esta carpeta se ubica el documento de mi trabajo de final de carrera
+
 ## [Zynq7000](/esquematico_Zynq_7000/)
 
 Estos son los planos de la Zynq7000
